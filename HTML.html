@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Responsive Design Example</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">My Home</a></li>
+        <li><a href="#">Information</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>Hello! Everyone! Welcome to my responsive website!</p>
+    </main>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Concepts</title>
+</head>
+<body>
+    <script>
+        // Strings
+        let str = "Hello, World!";
+        console.log(str.length); 
+        console.log(str.indexOf("World")); 
+        console.log(str.slice(0, 5)); 
+        console.log(str.split(", ")); 
+        
+        // Numbers
+        let num = 456.789;
+        console.log(num.toString()); 
+        console.log(num.toFixed(2)); 
+        console.log(Math.round(num)); 
+        console.log(Math.ceil(num)); 
+        console.log(Math.floor(num)); 
+        
+        // Arrays
+        let arr = ["orange", "banana", "mango"];
+        console.log(arr.push("apple")); 
+        console.log(arr.pop()); 
+        console.log(arr.shift()); 
+        console.log(arr.unshift("grape")); 
+        console.log(arr.join(" - ")); 
+        
+        // Dates
+        let date = new Date();
+        console.log(date.getFullYear()); 
+        console.log(date.getMonth()); 
+        console.log(date.getDate()); 
+        console.log(date.getHours()); 
+        console.log(date.getMinutes()); 
+        
+        // Functions
+        function greet(name) {
+            return "Hello, " + name + "!";
+        }
+        console.log(greet("Betty"));
+        
+        let myFunction = function(a, b) {
+            return a * b;
+        }
+        let x = myFunction.call(null, 5, 3);
+        console.log(x);
+    </script>
+</body>
+</html>
